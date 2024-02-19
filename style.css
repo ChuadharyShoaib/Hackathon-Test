@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#Navbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between;  */
+}
+
+.Nav-Items{
+    margin-left: 2%;
+    padding: 25px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nav-Items .input{
+    width: 13em;
+    height: 25px;
+    border: 2px solid black;
+}
+
+i{
+    width: 3em;
+    height: 25px;
+    padding-top: 3px;
+    text-align: center;
+    margin-left: 0%;
+    border: 2px solid black;
+    color: black;
+
+}
+
+.Nav-Items .Btn{
+    width: 10em;
+    height: 30px;
+    margin-left: 2%;
+    color: burlywood;
+}
+
+h1{
+    margin-top: 0;
+    margin-left: 130px;
+    float: right;
+}
+
+/* Navbar end div */
+
+.Nav-end{
+    width: 500px;
+    margin-left: 150px ;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.Nav-end a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Navbar end div */
+
+.front{
+    width: 100vw;
+    height: 5vh;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.front a{
+    color: black;
+    margin: 0 40px 0 40px;
+    text-decoration: none;
+}
+
+/* image div */
+
+.image{
+    /* background-repeat: no-repeat; */
+    /* background-size: cover ; */
+    position: relative;
+}
+.image img{
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+    background: repeat;
+}
+
+/* image div */
+
+.image-text{
+    width: 30vw;
+    height: 40vh;
+    left: 50%;
+    top: 150px;
+    align-items: center;
+    position: relative;
+}
+.image-text p{
+    width: 30vw;
+    left: 40%;
+    top: 5%;
+    position: relative;
+}
+
+.image-text .scnd-para{
+    width: 30vw;
+    top: 15%;
+    /* position: relative; */
+}
+.image-text button{
+    width: 10vw;
+    top: 15%;
+    left: 50%;
+    position: relative;
+}
+ 
+.firts-btn{
+    height: 40px;
+    /* width: 10vw; */
+    background-color: rgb(173, 148, 114);
+}
+.scnd-btn{
+    height: 40px;
+    width: 10vw;
+    background-color: rgb(173, 148, 114);
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: rgb(173, 148, 114) ;
+}
+
+
+
+
